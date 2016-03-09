@@ -1,0 +1,8 @@
+
+.subckt jp_close 1 2
+  v1 1 2 0v
+.ends jp_close
+
+.subckt jp_open 1 2
+  i1 1 2 0a
+.ends jp_open
