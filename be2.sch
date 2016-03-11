@@ -471,7 +471,7 @@ neg_in
 Text Label 5900 4250 0    60   ~ 0
 neg_in
 Text Notes 650  7950 0    60   ~ 12
-+PSPICE  \n\n* discrete\n.include ./sim/lib/1N4148.mdl\n* ic\n.include ./sim/lib/AD620A.ckt\n.include ./sim/lib/TL082.ckt\n* misc\n.include ./sim/lib/jumper.ckt\n\n* power\nv1 vcc 0 15v\nv2 vss 0 -15v\n\n* input\nv3 /in+ gnd sine 0 10 1k 0 0 90 DC 0 AC 1\nv4 /in-  gnd  DC 0 \n\n* transient sim, 1ms->1s, no op init\n.tran 0 1s 1m uic\n\n* ac  sim\n*.ac dec 1K 1 1Meg\n\n*step\n*.step param R 1K 100K 10K\n\n\n \n\n
++PSPICE  \n\n* discrete\n.include ./sim/lib/1N4148.mdl\n* ic\n.include ./sim/lib/AD620A.ckt\n.include ./sim/lib/TL082.ckt\n* misc\n.include ./sim/lib/jumper.ckt\n\n* power\nv1 vcc 0 15v\nv2 vss 0 -15v\n\n* input\nv4 /in-  gnd  DC 0 \n*v3 /in+ gnd sine 0 10 1k 0 0 90 DC 0 AC 1\nv3 /mean_in gnd sine 0 10 1k 0 0 90 DC 0 AC 1\n\n* transient sim, 1ms->1s, no op init\n*.tran 0 1s 1m uic\n\n* ac  sim\n.ac dec 1K 1 1Meg\n\n*step\n*.step param R 1K 100K 10K\n\n\n \n\n
 Wire Wire Line
 	1400 1650 2200 1650
 Wire Wire Line
@@ -841,7 +841,7 @@ Connection ~ 12900 3550
 Wire Wire Line
 	14150 2950 14600 2950
 Wire Wire Line
-	14600 2950 14600 3650
+	14600 2950 14600 4300
 Wire Wire Line
 	14400 3650 14900 3650
 Connection ~ 14600 3650
@@ -856,19 +856,8 @@ F 3 "" H 13500 4200 50  0000 C CNN
 	1    13500 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR024
-U 1 1 56E36E6A
-P 13750 4200
-F 0 "#PWR024" H 13750 3950 50  0001 C CNN
-F 1 "GND" H 13758 4026 50  0000 C CNN
-F 2 "" H 13750 4200 50  0000 C CNN
-F 3 "" H 13750 4200 50  0000 C CNN
-	1    13750 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13750 4200 13750 3750
+	13750 3750 13750 4300
 Wire Wire Line
 	13750 3750 13800 3750
 Wire Wire Line
@@ -880,7 +869,7 @@ L CONN_01X02 JP2
 U 1 1 56E3844F
 P 11750 4000
 F 0 "JP2" V 11669 3856 50  0000 R CNN
-F 1 "jp_close" V 11600 3850 50  0000 R CNN
+F 1 "jp_open" V 11600 3850 50  0000 R CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x01" H 11750 4000 50  0001 C CNN
 F 3 "" H 11750 4000 50  0000 C CNN
 	1    11750 4000
@@ -901,10 +890,10 @@ mean_in
 Text Label 14900 3650 0    60   ~ 0
 mean_out
 $Comp
-L VCC #PWR025
+L VCC #PWR024
 U 1 1 56E4467E
 P 13600 5200
-F 0 "#PWR025" H 13600 5050 50  0001 C CNN
+F 0 "#PWR024" H 13600 5050 50  0001 C CNN
 F 1 "VCC" V 13621 5327 50  0000 L CNN
 F 2 "" H 13600 5200 50  0000 C CNN
 F 3 "" H 13600 5200 50  0000 C CNN
@@ -934,10 +923,10 @@ F 3 "" H 14250 5200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VSS #PWR026
+L VSS #PWR025
 U 1 1 56E44690
 P 14500 5200
-F 0 "#PWR026" H 14500 5050 50  0001 C CNN
+F 0 "#PWR025" H 14500 5050 50  0001 C CNN
 F 1 "VSS" V 14520 5328 50  0000 L CNN
 F 2 "" H 14500 5200 50  0000 C CNN
 F 3 "" H 14500 5200 50  0000 C CNN
@@ -945,10 +934,10 @@ F 3 "" H 14500 5200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR026
 U 1 1 56E44696
 P 14050 5400
-F 0 "#PWR027" H 14050 5150 50  0001 C CNN
+F 0 "#PWR026" H 14050 5150 50  0001 C CNN
 F 1 "GND" H 14058 5226 50  0000 C CNN
 F 2 "" H 14050 5400 50  0000 C CNN
 F 3 "" H 14050 5400 50  0000 C CNN
@@ -984,10 +973,10 @@ Wire Wire Line
 Wire Wire Line
 	13700 1650 13750 1650
 $Comp
-L VSS #PWR028
+L VSS #PWR027
 U 1 1 56E497C9
 P 13950 1900
-F 0 "#PWR028" H 13950 1750 50  0001 C CNN
+F 0 "#PWR027" H 13950 1750 50  0001 C CNN
 F 1 "VSS" H 13971 2074 50  0000 C CNN
 F 2 "" H 13950 1900 50  0000 C CNN
 F 3 "" H 13950 1900 50  0000 C CNN
@@ -995,10 +984,10 @@ F 3 "" H 13950 1900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VCC #PWR029
+L VCC #PWR028
 U 1 1 56E49BA9
 P 13950 1200
-F 0 "#PWR029" H 13950 1050 50  0001 C CNN
+F 0 "#PWR028" H 13950 1050 50  0001 C CNN
 F 1 "VCC" H 13970 1374 50  0000 C CNN
 F 2 "" H 13950 1200 50  0000 C CNN
 F 3 "" H 13950 1200 50  0000 C CNN
@@ -1014,10 +1003,10 @@ Wire Wire Line
 Wire Wire Line
 	14500 1550 14350 1550
 $Comp
-L GND #PWR030
+L GND #PWR029
 U 1 1 56E4EDE4
 P 13650 1450
-F 0 "#PWR030" H 13650 1200 50  0001 C CNN
+F 0 "#PWR029" H 13650 1200 50  0001 C CNN
 F 1 "GND" V 13658 1322 50  0000 R CNN
 F 2 "" H 13650 1450 50  0000 C CNN
 F 3 "" H 13650 1450 50  0000 C CNN
@@ -1026,4 +1015,6 @@ F 3 "" H 13650 1450 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	13750 1450 13650 1450
+Wire Wire Line
+	13750 4300 14600 4300
 $EndSCHEMATC
