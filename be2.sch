@@ -383,7 +383,7 @@ neg_in
 Text Label 5900 4250 0    60   ~ 0
 neg_in
 Text Notes 650  7950 0    60   ~ 12
-+PSPICE  \n\n* discrete\n.include ./sim/lib/1N4148.mdl\n* ic\n.include ./sim/lib/AD620A.ckt\n.include ./sim/lib/TL082.ckt\n* misc\n.include ./sim/lib/jumper.ckt\n\n* power\nv1 vcc 0 15v\nv2 vss 0 -15v\n\n* input\nv4 /in-  gnd  DC 0 \nv3 /in+ gnd sine 0 10 1k 0 0 90 DC 0 AC 1\n*v3 /mean_in gnd sine 0 10 1k 0 0 90 DC 0 AC 1\n\n* transient sim, 1ms->1s, no op init\n.tran 0 10s 1m uic\n\n* ac  sim\n*.ac dec 1K 1 1Meg\n\n*step\n*.step param R 1K 100K 10K\n\n\n \n\n
++PSPICE  \n\n* discrete\n.include ./sim/lib/1N4148.mdl\n* ic\n.include ./sim/lib/AD620A.ckt\n.include ./sim/lib/TL082.ckt\n* misc\n.include ./sim/lib/jumper.ckt\n\n* power\nv1 vcc 0 15v\nv2 vss 0 -15v\n\n* input\nv4 /in-  gnd  DC 0 \nv3 /in+ gnd sine 0 10 40k 0 0 90 DC 0 AC 2.62\n*v3 /mean_in gnd sine 0 10 1k 0 0 90 DC 0 AC 1\n\n* transient sim, 1ms->1s, no op init\n.tran 0 10s 1m uic\n\n* ac  sim\n*.ac dec 1K 1 1Meg\n\n*step\n*.step param R 1K 100K 10K\n\n\n \n\n
 Text Label 7600 4300 3    60   ~ 0
 u2_out
 Text Label 6700 4100 2    60   ~ 0
