@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 177.16525 177.16531"
+   id="svg10728"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="kickalt-symbol.svg"
+   inkscape:export-filename="/home/kaeipnos/BEs/kicad-project/datasheet/kickalt-symbol.png"
+   inkscape:export-xdpi="585.98468"
+   inkscape:export-ydpi="585.98468">
+  <defs
+     id="defs10730" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="109.97232"
+     inkscape:cy="92.408446"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata10733">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Back-1"
+     transform="translate(0,-875.197)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10.18080711;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect11368"
+       width="146.22249"
+       height="105.77306"
+       x="15.281585"
+       y="891.21539" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="22.499985"
+       y="1036.2908"
+       id="text11371"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11373"
+         x="22.499985"
+         y="1036.2908"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS Bold'">KickAlt</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Back"
+     transform="translate(0,-875.197)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-875.197)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Front"
+     transform="translate(0,-875.197)">
+    <path
+       d="m 53.250079,986.93349 c 3.481084,1.0594 5.297303,1.3621 8.02163,1.3621 10.291903,0 17.254072,-5.2972 37.232474,-28.15136 11.956767,0 20.886527,0.15135 26.789237,0.60541 -0.3027,1.81622 -0.6054,3.63245 -0.75676,5.44866 -0.3027,1.96756 -0.75675,4.84324 -1.21081,8.02162 -0.3027,2.87568 -0.75676,5.75134 -0.90811,6.2054 -0.45406,2.57307 -0.75676,4.99457 -0.75676,6.50817 0,1.8162 1.51352,3.3297 3.48109,3.3297 1.05946,0 2.57297,-0.1514 4.38919,-0.6054 7.26487,-1.3622 14.52975,-2.7243 21.79462,-3.9351 l 2.42162,-3.6325 c -1.51351,0.1514 -3.02703,0.3027 -3.48107,0.3027 -4.6919,0.4541 -5.44866,0.4541 -7.71893,0.4541 -5.90272,0 -7.71894,-1.5135 -7.71894,-6.81085 0,-9.53515 6.05407,-52.51897 10.74597,-76.12981 l -2.11892,-1.51351 c -0.60541,0.60541 -1.21082,1.2108 -1.66487,1.81621 -2.42163,2.42163 -3.7838,3.02704 -6.35677,3.02704 -1.81622,0 -2.42162,0 -8.62703,-1.05946 -6.96218,-1.05947 -10.74596,-1.51351 -13.77301,-1.51351 -6.96217,0 -14.227046,3.48107 -21.340567,10.44324 -8.021631,7.71893 -11.502716,14.52975 -11.502716,22.55138 0,3.48109 0.454055,5.90272 2.118923,10.2919 l 11.200011,-6.05405 c -2.421625,-7.11353 -3.178383,-10.59461 -3.178383,-14.07569 0,-8.62705 6.508118,-13.77299 17.556782,-13.77299 1.66486,0 3.48109,0.15134 5.60001,0.30269 l 6.05407,0.75676 2.27028,0.15135 c 2.57297,0.30271 3.78379,0.30271 7.87028,0.60541 l -26.18383,33.90275 c -6.356773,8.17297 -16.345972,19.82704 -20.281112,23.61083 -6.05406,5.90271 -10.594607,8.02163 -17.556775,8.02163 -2.572976,0 -3.93514,-0.15135 -6.659468,-1.05946 l -5.751356,10.59464 z m 49.946001,-32.99467 29.21086,-38.29193 -6.20541,38.29193 -23.00545,0 z"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path11297"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(3.6951829,0,0,3.8745173,-981.45209,125.45361)"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:34.28836441px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Medium Italic';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text11276">
+      <path
+         d="m 287.98751,223.16325 -8.47164,-10.83231 -2.91317,2.22674 0,8.60557 -4.939,0 0,-23.58999 4.939,0 0,10.69837 10.6314,-10.69837 5.75937,0 -10.0789,9.97845 10.89928,13.61154 -5.82634,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';stroke:#ffffff;stroke-opacity:1"
+         id="path11316"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
