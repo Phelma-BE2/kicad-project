@@ -3,7 +3,7 @@
   (general
     (links 113)
     (no_connects 4)
-    (area 43.734999 37.811199 173.885001 67.975001)
+    (area 27.674286 25.19 191.810001 76.385)
     (thickness 1.6)
     (drawings 30)
     (tracks 528)
@@ -2357,7 +2357,7 @@
     (arrow2b (pts (xy 123.82 27.89) (xy 124.946504 27.303579)))
   )
   (dimension 50 (width 0.3) (layer Dwgs.User)
-    (gr_text "50,000 mm" (at 68.711901 26.55) (layer Dwgs.User) (tstamp 5750B974)
+    (gr_text "50,000 mm" (at 68.711901 26.55) (layer Dwgs.User) (tstamp 5750A354)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 93.711901 32.9) (xy 93.711901 25.2)))
